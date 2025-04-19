@@ -1,0 +1,21 @@
+.notFoundResultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min(49.3vw, 710px);
+    padding: min(1.18vw, 17px) 0;
+    background-color: var(--backgroundVariantColor);
+}
+
+.notFoundResultText {
+    color: var(--errorColor);
+    font-size: clamp(1rem, 1.3vw, 1.42rem);
+}
+
+.FoundResultContainer {
+    display: flex;
+    justify-content: center;
+    width: min(49.3vw, 710px);
+    padding: min(1.18vw, 17px) 0;
+    background-color: var(--backgroundVariantColor);
+}

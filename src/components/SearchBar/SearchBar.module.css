@@ -1,0 +1,24 @@
+.searchBarContainer {
+    display: flex;
+    margin-bottom: min(2.29vw, 33px);
+}
+
+.searchBarIconButton {
+    background-color: var(--primaryColor);
+    border-radius: 10px;
+    padding: min(1.25vw, 18px);
+
+}
+
+.searchBarInput {
+    width: min(32.50vw, 467px);
+    border-radius: 10px;
+    padding: min(1.25vw, 18px);
+    font-size: clamp(1rem, 1.3vw, 1.42rem);
+    font-weight: 600;
+}
+
+.searchBarIconButton span {
+    color: #FFF;
+    font-size: clamp(1rem, 1.78vw, 1.78rem);
+}

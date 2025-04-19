@@ -1,10 +1,11 @@
-import { useState } from 'react'
 import './App.css'
+import { EffectiveArea } from './components/EffectiveArea/EffectiveArea'
 
 function App() {
+
   return (
     <>
-
+    <EffectiveArea/>
     </>
   )
 }

@@ -1,1 +1,16 @@
+:root {
+    --primaryColor: #005CFF;
+    --backgroundVariantColor: #D9D9D9;
+    --errorColor: #FF0000;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  img {
+    max-width: auto;
+  }

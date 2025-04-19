@@ -1,0 +1,12 @@
+.headerContainer {
+    display: flex;
+    gap: min(0.7vw, 11px);
+    margin-bottom: min(1.87vw, 27px);
+}
+
+.headerText {
+    color: #FFF;
+    font-size: 4.28rem;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+}
