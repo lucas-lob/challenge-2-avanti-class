@@ -1,12 +1,23 @@
 .headerContainer {
     display: flex;
+    align-items: center;
     gap: min(0.7vw, 11px);
     margin-bottom: min(1.87vw, 27px);
 }
 
+.headerGitHubLogo {
+    width: min(5.08vw, 58px);
+    height: min(5.08vw, 58px);
+}
+
+.headerGitHubLogoText {
+    width: min(14vw, 160px);
+    height: min(3.94vw, 45px);
+}
+
 .headerText {
     color: #FFF;
-    font-size: 4.28rem;
+    font-size: clamp(2.85rem, 5.2vw, 4.28rem);
     font-weight: 600;
     font-family: 'Nunito Sans', sans-serif;
 }

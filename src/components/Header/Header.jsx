@@ -7,11 +7,11 @@ import style from './Header.module.css'
 export const Header = () => {
   return (
     <div className={style.headerContainer}>
-      <img src={githubLogo} alt="GitHub logo" />
+      <img class={style.headerGitHubLogo} src={githubLogo} alt="GitHub logo" />
 
-      <p className={style.headerText}>Perfil</p>
+      <h1 className={style.headerText}>Perfil</h1>
       
-      <img src={githubText} alt="GitHub logo text" />
+      <img class={style.headerGitHubLogoText} src={githubText} alt="GitHub logo text" />
     </div>
   )
 }
