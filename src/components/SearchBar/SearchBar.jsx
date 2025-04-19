@@ -7,8 +7,8 @@ export const SearchBar = () => {
     <div className={style.searchBarContainer}>
       <input className={style.searchBarInput} type="text" placeholder="Digite um usuário do Github" />
 
-      <button className={style.searchBarIconButton}>
-        <span class="material-symbols-outlined">search</span>
+      <button className={style.searchBarButton}>
+        <span className={style.searchBarButtonIcon}>search</span>
       </button>
     </div>
   )

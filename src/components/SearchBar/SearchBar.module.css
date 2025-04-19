@@ -1,24 +1,36 @@
 .searchBarContainer {
+    position: relative;
     display: flex;
+    align-items: center;
     margin-bottom: min(2.29vw, 33px);
-}
-
-.searchBarIconButton {
-    background-color: var(--primaryColor);
-    border-radius: 10px;
-    padding: min(1.25vw, 18px);
-
 }
 
 .searchBarInput {
     width: min(32.50vw, 467px);
+    border: 1px solid var(--grayBorderColor);
     border-radius: 10px;
     padding: min(1.25vw, 18px);
     font-size: clamp(1rem, 1.3vw, 1.42rem);
     font-weight: 600;
 }
 
-.searchBarIconButton span {
+.searchBarButton {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background-color: var(--primaryColor);
+    border: 1px solid var(--grayBorderColor);
+    border-radius: 10px;
+    padding: 0 min(0.83vw, 12px);
+    transition: all ease-in-out 0.25s;
+}
+
+.searchBarButton:hover {
+    background-color: var(--secundaryColor);
+}
+
+.searchBarButtonIcon {
+    font-family: 'Material Symbols Rounded';
+    font-size: clamp(1rem, 2.8vw, 2.8rem);
     color: #FFF;
-    font-size: clamp(1rem, 1.78vw, 1.78rem);
 }

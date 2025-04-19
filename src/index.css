@@ -1,7 +1,10 @@
 :root {
     --primaryColor: #005CFF;
+    --secundaryColor: #498afc;
     --backgroundVariantColor: #D9D9D9;
     --errorColor: #FF0000;
+
+    --grayBorderColor: #DDDDDD;
 }
 
 * {

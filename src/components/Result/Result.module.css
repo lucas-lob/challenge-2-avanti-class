@@ -34,6 +34,11 @@
     overflow: hidden;
     border-radius: 50%;
     border: 2px solid var(--primaryColor);
+    transition: all ease-in-out 0.25s;
+}
+
+.FoundResultPhotoContainer:hover {
+    border-color: var(--secundaryColor);
 }
 
 .FoundResultText {
