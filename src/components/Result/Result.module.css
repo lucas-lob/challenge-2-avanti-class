@@ -1,3 +1,4 @@
+/* NOT FOUND COMPONENT */
 .notFoundResultContainer {
     display: flex;
     flex-direction: column;
@@ -5,6 +6,7 @@
     width: min(49.3vw, 710px);
     padding: min(1.18vw, 17px) 0;
     background-color: var(--backgroundVariantColor);
+    border-radius: 25px;
 }
 
 .notFoundResultText {
@@ -12,10 +14,40 @@
     font-size: clamp(1rem, 1.3vw, 1.42rem);
 }
 
+
+
+/* FOUND COMPONENT */
 .FoundResultContainer {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items: center;
+    gap: min(2.2vw, 32px);
     width: min(49.3vw, 710px);
-    padding: min(1.18vw, 17px) 0;
+    padding: min(1.18vw, 17px) min(4.93vw, 71px) min(1.18vw, 17px) min(2.29vw, 33px);
     background-color: var(--backgroundVariantColor);
+    border-radius: 25px;
+}
+
+.FoundResultPhotoContainer {
+    width: min(15vw, 220px);
+    height: min(15vw, 220px);
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid var(--primaryColor);
+}
+
+.FoundResultText {
+    display: flex;
+    flex-direction: column;
+    width: min(31.1vw ,448px);
+}
+
+.FoundResultTitle {
+    color: var(--primaryColor);
+    font-size: clamp(1rem, 1.3vw, 1.42rem);
+    margin-bottom: min(1.1vw, 16px);
+}
+
+.FoundResultDescription {
+    font-size: clamp(1rem, 1.04vw, 1.07rem);
 }
