@@ -37,6 +37,11 @@
     transition: all ease-in-out 0.25s;
 }
 
+.FoundResultPhoto {
+    width: min(15vw, 220px);
+    height: min(15vw, 220px);
+}
+
 .FoundResultPhotoContainer:hover {
     border-color: var(--secundaryColor);
 }
