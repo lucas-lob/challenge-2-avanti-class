@@ -21,7 +21,7 @@ export const GithubUser = () => {
       isFirstRender.current = false
       return
     }
-    console.log(userInfos)
+
     if ("status" in userInfos) {
       setResultComponent(NotFoundResult)
     } else {
