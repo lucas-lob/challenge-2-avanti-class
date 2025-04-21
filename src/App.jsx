@@ -1,11 +1,12 @@
 import './App.css'
-import { EffectiveArea } from './components/EffectiveArea/EffectiveArea'
+import { GithubUser } from './components/GithubUser/GithubUser'
+
 
 function App() {
 
   return (
     <>
-    <EffectiveArea/>
+      <GithubUser />
     </>
   )
 }

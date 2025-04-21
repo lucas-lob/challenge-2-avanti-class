@@ -1,17 +1,17 @@
 import React from 'react'
-import style from './EffectiveArea.module.css'
+import style from './GithubUser.module.css'
 
 import { Header } from '../Header/Header'
 import { SearchBar } from '../SearchBar/SearchBar'
 import { FoundResult } from '../Result/Result'
 
 
-export const EffectiveArea = () => {
+export const GithubUser = () => {
   return (
-    <div className={style.effectiveArea}>
-    <Header/>
-    <SearchBar/>
-    <FoundResult/>
+    <div className={style.container}>
+      <Header />
+      <SearchBar />
+      <FoundResult />
     </div>
   )
 }
