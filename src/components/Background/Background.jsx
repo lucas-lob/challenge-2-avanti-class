@@ -7,6 +7,8 @@ export const Background = () => {
   return (
     <>
     <img className={style.squaresBg} src={squares} alt="squares background" />
+    <div className={style.spotLightTop}></div>
+    <div className={style.spotLightBottom}></div>
     </>
   )
 }

@@ -1,7 +1,44 @@
 .squaresBg {
     position: absolute;
     z-index: 0;
-    right: 86%;
+    right: 78%;
     bottom: 79%;
-    width: min(16.6vw, 239px);
+    width: 200px;
+}
+
+.spotLightTop {
+    position: absolute;
+    z-index: 0;
+    left: 57%;
+    bottom: 37%;
+    width: 61vw;
+    height: 61vw;
+    background: radial-gradient(closest-side, rgba(0, 92, 255, 0.6) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+.spotLightBottom {
+    position: absolute;
+    z-index: 0;
+    right: 85%;
+    top: -20%;
+    width: 61vw;
+    height: 61vw;
+    background: radial-gradient(closest-side, rgba(0, 92, 255, 0.6) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+@media (min-width:920px){
+    .squaresBg {
+        right: 86%;
+        bottom: 79%;
+        width: min(16.6vw, 239px);
+    }
+
+    .spotLightTop {
+        left: 60%;
+        bottom: 12%;
+    }
+
+    .spotLightBottom {
+        right: 85%;
+    }
 }
