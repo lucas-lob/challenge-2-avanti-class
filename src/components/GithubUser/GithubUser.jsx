@@ -3,6 +3,7 @@ import style from './GithubUser.module.css'
 
 import { Header } from '../Header/Header'
 import { FoundResult, NotFoundResult } from '../Result/Result'
+import { Background } from '../Background/Background'
 
 
 export const GithubUser = () => {
@@ -44,22 +45,26 @@ export const GithubUser = () => {
 
   return (
     <div className={style.container}>
-      <Header />
+      <Background />
 
-      <div className={style.searchBarContainer}>
-        <input
-          className={style.searchBarInput}
-          type="text"
-          placeholder="Digite um usuário do Github"
-          value={user}
-          onChange={(element) => { setUser(element.target.value) }} />
+      <div className={style.containerElements}>
+        <Header />
 
-        <button onClick={searchUser} type="button" className={style.searchBarButton}>
-          <span className={style.searchBarButtonIcon}>search</span>
-        </button>
+        <div className={style.searchBarContainer}>
+          <input
+            className={style.searchBarInput}
+            type="text"
+            placeholder="Digite um usuário do Github"
+            value={user}
+            onChange={(element) => { setUser(element.target.value) }} />
+
+          <button onClick={searchUser} type="button" className={style.searchBarButton}>
+            <span className={style.searchBarButtonIcon}>search</span>
+          </button>
+        </div>
+
+        {resultComponent}
       </div>
-
-      {resultComponent}
     </div>
   )
 }

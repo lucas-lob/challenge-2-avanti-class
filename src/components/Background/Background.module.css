@@ -1,6 +1,7 @@
 .squaresBg {
     position: absolute;
-    left: 5vw;
-    top: 2vw;
-    width: min(15.62vw, 225px);
+    z-index: 0;
+    right: 86%;
+    bottom: 79%;
+    width: min(16.6vw, 239px);
 }

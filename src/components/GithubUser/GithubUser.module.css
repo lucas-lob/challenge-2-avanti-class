@@ -5,12 +5,20 @@
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    background-color: #000;
     width: 80vw;
-    height: calc(35vw - min(2.56vw, 39px));
     margin: auto;
-    padding: min(2.56vw, 39px) 0;
     align-items: center;
+}
+
+.containerElements { 
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    width: 100%;
+    height: calc(35vw - min(2.56vw, 39px));
+    padding: min(2.56%, 39px) 0;
 }
 
 
