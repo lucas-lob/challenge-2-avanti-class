@@ -1,12 +1,18 @@
+.resultContainer {
+    height: min(17.84vw, 257px);
+}
+
+
+
 /* NOT FOUND COMPONENT */
 .notFoundResultContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: min(49.3vw, 710px);
     padding: min(1.18vw, 17px) 0;
     background-color: var(--backgroundVariantColor);
-    border-radius: 25px;
+    border-radius: 10px;
+    align-items: center;
 }
 
 .notFoundResultText {

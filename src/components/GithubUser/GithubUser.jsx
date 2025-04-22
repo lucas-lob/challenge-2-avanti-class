@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import style from './GithubUser.module.css'
 
 import { Header } from '../Header/Header'
-import { FoundResult, NotFoundResult } from '../Result/Result'
+import { FoundResult, NotFoundResult, withoutResult } from '../Result/Result'
 import { Background } from '../Background/Background'
 
 
@@ -11,7 +11,7 @@ export const GithubUser = () => {
   // useStates
   const [user, setUser] = useState("")
   const [userInfos, setUserInfos] = useState({})
-  const [resultComponent, setResultComponent] = useState(() => { })
+  const [resultComponent, setResultComponent] = useState(withoutResult)
 
   // useEffects
   const isFirstRender = useRef(true)
