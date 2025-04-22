@@ -5,6 +5,9 @@
     --errorColor: #FF0000;
 
     --grayBorderColor: #DDDDDD;
+    --grayBackgroundColor: #1F1F1F;
+
+    background-color: var(--grayBackgroundColor);
 }
 
 * {

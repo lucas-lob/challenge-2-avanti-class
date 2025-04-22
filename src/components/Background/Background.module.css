@@ -1,0 +1,6 @@
+.squaresBg {
+    position: absolute;
+    left: 5vw;
+    top: 2vw;
+    width: min(15.62vw, 225px);
+}
