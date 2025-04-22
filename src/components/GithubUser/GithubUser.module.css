@@ -4,10 +4,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column;
     width: 80vw;
-    margin: auto;
-    align-items: center;
 }
 
 .containerElements { 
@@ -17,7 +14,6 @@
     align-items: center;
     background-color: #000;
     width: 100%;
-    height: calc(35vw - min(2.56vw, 39px));
     padding: min(2.56%, 39px) 0;
 }
 
