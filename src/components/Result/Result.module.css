@@ -1,5 +1,5 @@
 .resultContainer {
-    height: auto;
+    height: 300px;
 }
 
 @media (min-width: 920px){
@@ -43,8 +43,8 @@
 }
 
 .FoundResultPhotoContainer {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     border-radius: 50%;
     border: 2px solid var(--primaryColor);
@@ -52,8 +52,8 @@
 }
 
 .FoundResultPhoto {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .FoundResultPhotoContainer:hover {

@@ -4,7 +4,7 @@ import style from './Result.module.css'
 
 export const FoundResult = ({ userImageSrc, userName, userBiography }) => {
   return (
-    <div className={style.resultContainer}>
+    <>
       <div className={style.FoundResultContainer}>
         <div className={style.FoundResultPhotoContainer}>
           <img className={style.FoundResultPhoto} src={userImageSrc} alt='User' />
@@ -20,7 +20,7 @@ export const FoundResult = ({ userImageSrc, userName, userBiography }) => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
