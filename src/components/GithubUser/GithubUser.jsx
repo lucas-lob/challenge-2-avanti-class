@@ -45,7 +45,6 @@ export const GithubUser = () => {
 
   return (
     <div className={style.container}>
-      <Background />
 
       <div className={style.containerElements}>
         <Header />

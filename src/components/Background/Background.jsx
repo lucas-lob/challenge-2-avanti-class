@@ -6,9 +6,11 @@ import squares from '../../assets/images/bg-squares.png'
 export const Background = () => {
   return (
     <>
-    <img className={style.squaresBg} src={squares} alt="squares background" />
-    <div className={style.spotLightTop}></div>
-    <div className={style.spotLightBottom}></div>
+      <div className={style.squaresBg}>
+        <img src={squares} alt="squares background" />
+      </div>
+      <div className={style.spotLightTop}></div>
+      <div className={style.spotLightBottom}></div>
     </>
   )
 }
