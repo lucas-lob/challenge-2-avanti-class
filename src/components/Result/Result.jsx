@@ -16,7 +16,7 @@ export const FoundResult = ({ userImageSrc, userName, userBiography }) => {
           </h2>
 
           <p className={style.FoundResultDescription}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa provident maiores, necessitatibus est hic aperiam sequi officiis rem quod praesentium facere velit ab impedit dolor quae, perferendis, fugiat tempora.
+            {userBiography}
           </p>
         </div>
       </div>
