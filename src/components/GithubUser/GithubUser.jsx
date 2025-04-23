@@ -45,25 +45,22 @@ export const GithubUser = () => {
 
   return (
     <div className={style.container}>
+      <Header />
 
-      <div className={style.containerElements}>
-        <Header />
+      <div className={style.searchBarContainer}>
+        <input
+          className={style.searchBarInput}
+          type="text"
+          placeholder="Digite um usuário do Github"
+          value={user}
+          onChange={(element) => { setUser(element.target.value) }} />
 
-        <div className={style.searchBarContainer}>
-          <input
-            className={style.searchBarInput}
-            type="text"
-            placeholder="Digite um usuário do Github"
-            value={user}
-            onChange={(element) => { setUser(element.target.value) }} />
-
-          <button onClick={searchUser} type="button" className={style.searchBarButton}>
-            <span className={style.searchBarButtonIcon}>search</span>
-          </button>
-        </div>
-
-        {resultComponent}
+        <button onClick={searchUser} type="button" className={style.searchBarButton}>
+          <span className={style.searchBarButtonIcon}>search</span>
+        </button>
       </div>
+
+      {resultComponent}
     </div>
   )
 }
