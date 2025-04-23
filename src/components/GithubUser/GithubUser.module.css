@@ -16,7 +16,7 @@
 }
 
 @media (min-width:920px) {
-    .containerElements {
+    .container {
         padding: min(2.56%, 39px) 0;
         width: 80vw;
     }
