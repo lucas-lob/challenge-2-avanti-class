@@ -11,7 +11,7 @@ export const Header = () => {
 
       <h1 className={style.headerText}>Perfil</h1>
       
-      <img class={style.headerGitHubLogoText} src={githubText} alt="GitHub logo text" />
+      <img className={style.headerGitHubLogoText} src={githubText} alt="GitHub logo text" />
     </div>
   )
 }
