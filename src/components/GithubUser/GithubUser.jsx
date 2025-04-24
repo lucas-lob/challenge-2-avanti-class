@@ -38,9 +38,16 @@ export const GithubUser = () => {
 
   // Function to call Github User API 
   const searchUser = () => {
-    fetch(`https://api.github.com/users/${user.trim()}`)
+    if(user === ""){
+      alert("O campo está vazio!")
+    } else {
+      fetch(`https://api.github.com/users/${user.trim()}`)
       .then(response => response.json())
-      .then(data => setUserInfos(data))
+      .then(data => {
+        setUserInfos(data)
+        setUser("")
+      })
+    }
   }
 
   return (
