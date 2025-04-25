@@ -29,6 +29,7 @@ export const NotFoundResult = () => {
     <div className={style.resultContainer}>
       <div className={style.notFoundResultContainer}>
         <p className={style.notFoundResultText}>Nenhum perfil foi encontrado com esse nome de usuário.</p>
+        
         <p className={style.notFoundResultText}>Tente novamente</p>
       </div>
     </div>
