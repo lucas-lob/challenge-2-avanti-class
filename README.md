@@ -2,36 +2,28 @@
 
 ![Header](src/assets/images/responsivity.png)
 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
 </div>
 
 </br>
 
 </br>
 
-# Sobre o projeto
+# ℹ️ Sobre o projeto
 
 ### Descrição
 
 Esse projeto consistiu na resolução de um um desafio técnico da <a href="https://ic.penseavanti.com.br/">Avanti Inovattion Class</a>, onde é proposto a criação de um site de busca de perfil do GitHub Durante esse projeto, pude fixar e aplicar conceitos fundamentais sobre *React*, tais como sintaxe, criação de componentes, *useEffects*, *useState* e *useRef*. Além disso, também tive contato com APIs, através da busca feita na API Users do GitHub para obtenção de dados de um usuário.
 
-
-### Linguagens utilizadas
-
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-
-### Ferramentas utilizadas
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
 </br>
 
 </br>
 
-# Instalação
+# 💻 Instalação
 
 Abra o terminal de sua IDE ou do próprio sistema operacional e , caso necessário, altere o diretório para o local onde você deseja instalar o repositório.
 
@@ -49,7 +41,7 @@ git clone https://github.com/lucas-lob/challenge-2-avanti-class.git
 
 </br>
 
-# Principais recursos desenvolvidos
+# ✨ Principais recursos desenvolvidos
 
 ### Requisição de API do GitHub
 
@@ -63,11 +55,11 @@ git clone https://github.com/lucas-lob/challenge-2-avanti-class.git
 
 </br>
 
-# Contatos
+# 📧 Contatos
 
-Contate-me através dos *links* abaixo!
-
-<a href="https://www.linkedin.com/in/lucas-lobato-chagas-036159201/">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+Linkedin: https://www.linkedin.com/in/lucas-lobato-chagas-036159201/
 
 E-mail: lucas.mcp23@gmail.com
+
+#### Feito com ❤️ por Lucas Lobato.
 
